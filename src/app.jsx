@@ -1,9 +1,11 @@
 import React from "react";
 
-const app = () => (
+import styles from "./style";
+
+const App = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <h1>Hello, World!</h1>
+    <div></div>
   </div>
 );
 
-export default app;
+export default App;
